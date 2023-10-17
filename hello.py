@@ -1,11 +1,4 @@
-#  List : ordered,mutable,allow dupicate
-myList = ["banana", "Cherry", "apple"]
-print(myList)
-item = myList[-1]
-print(item)
-for i in myList:
-  print(i)
-if "mango" in myList:
-    print ("Yes")
-else:
-    print("no")
+a = [1, 2, 3, 4, 5, 6]
+b = [i*i for i in a]
+print(b)
+print(a)

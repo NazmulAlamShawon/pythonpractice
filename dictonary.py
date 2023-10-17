@@ -1,0 +1,1 @@
+mydict = {"name":"Nazmul","age":34,}
